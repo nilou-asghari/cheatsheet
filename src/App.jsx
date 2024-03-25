@@ -1,12 +1,16 @@
 import "./App.css";
-import GitTab from "./components/GitTab";
-import JavaSCheat from "./components/JavaSCheat";
+
+import MyTabs from "./components/MyTab";
+
 
 function App() {
   return (
     <>
-      <GitTab />
-      <JavaSCheat />
+
+      <MyTabs/>
+   
+
+
     </>
   );
 }

@@ -1,0 +1,16 @@
+/* .my-tabs { */
+    /* background-color: rgb(157, 246, 246); */
+/* } */
+
+
+.my-tabs .tab-content {
+     border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: -1px;
+    transition: background-color 0.3s ease;
+  
+}
+
+.my-tabs .tab-content:hover {
+    background-color: #f0f0f0; /* Adjust color as needed */
+  }
