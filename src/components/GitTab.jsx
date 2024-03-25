@@ -9,11 +9,7 @@ export default function GitTab() {
     <div className={Styles.container}>
       <ol>
         <pre>
-          <code className="language-git">
-            {`
-               git init
-              `}
-          </code>
+          <code className="language-git">{`git init`}</code>
         </pre>
       </ol>
       <ol>
