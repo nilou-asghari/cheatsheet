@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs"; // Corrected 'Tabpane
 import "react-tabs/style/react-tabs.css";
 import HTML from "./HTML";
 import GitTab from "./GitTab";
+import JavaSCheat from "./JavaSCheat";
 
 export default function MyTabs() {
   const [activeTab, setActiveTab] = useState(0);
@@ -35,6 +36,7 @@ export default function MyTabs() {
       </TabPanel>
       <TabPanel>
         <h2>Starting Javascript</h2>
+        <JavaSCheat/>
         {/* import javascript content here from another component*/}
       </TabPanel>
     </Tabs> 
