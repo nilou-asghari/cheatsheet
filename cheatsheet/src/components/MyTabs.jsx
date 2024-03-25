@@ -13,6 +13,7 @@ export default function MyTabs() {
 
       <TabPanel>
         <h2>Starting A Git Project</h2>
+               {/* import git content here from its component */}
         <p>1</p>
         <p>2</p>
         <p>3</p>
@@ -20,9 +21,11 @@ export default function MyTabs() {
       </TabPanel>
       <TabPanel>
         <h2>Starting HTML Project</h2>
+        {/* import html content here */}
       </TabPanel>
       <TabPanel>
         <h2>Starting Javascript</h2>
+               {/* import javascript content here from another component*/}
       </TabPanel>
     </Tabs>
   );
