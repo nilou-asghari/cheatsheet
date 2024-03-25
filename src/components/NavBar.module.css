@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+    height: 56px;
+}
+
+.content {
+    font-family: "Potta One", system-ui;
+
+
+}
+
+
+.logo img {
+    width: 34px;
+    padding-right: 5px;
+}

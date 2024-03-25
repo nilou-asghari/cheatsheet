@@ -1,18 +1,16 @@
 import React from "react";
 import { useEffect } from "react";
 import Prism from "prismjs";
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 import "../prism.css";
 import Styles from "./GitTab.module.css";
-import { useEffect } from "react";
 
 import "prismjs/plugins/toolbar/prism-toolbar.min.css";
 import "prismjs/plugins/toolbar/prism-toolbar.min";
 import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min";
 
 export default function GitTab() {
-
   useEffect(() => {
     Prism.highlightAll();
   }, []);
@@ -30,7 +28,6 @@ export default function GitTab() {
       <div>
         <pre className="copy-to-clipboard">
           <code className="language-git">{`git clone [url]`}</code>
-
         </pre>
       </div>
 
