@@ -30,13 +30,21 @@ export default function MyTabs() {
         {/* import git content here from its component */}
       </TabPanel>
       <TabPanel>
-        <h2>Starting A Git Project</h2>
-        <GitTab/>
+        <div className="tab-content">
+          <h2>Starting A Git Project</h2>   
+          <GitTab/>
+        </div>
+       
+      
         {/* import html content here */}
       </TabPanel>
       <TabPanel>
-        <h2>Starting Javascript</h2>
-        <JavaSCheat/>
+        <div className="tab-content">
+           <h2>Starting Javascript</h2> 
+           <JavaSCheat/>
+        </div>
+       
+       
         {/* import javascript content here from another component*/}
       </TabPanel>
     </Tabs> 

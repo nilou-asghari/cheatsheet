@@ -5,10 +5,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "../prism.css";
 import Styles from "./GitTab.module.css";
-<<<<<<< HEAD
+
 // import { useEffect } from "react";
-=======
->>>>>>> 77424251cd27d177f16ce2983040858d33a576ef
 
 import "prismjs/plugins/toolbar/prism-toolbar.min.css";
 import "prismjs/plugins/toolbar/prism-toolbar.min";
