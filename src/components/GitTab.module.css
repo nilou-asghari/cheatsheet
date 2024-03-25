@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 65vw;
+    font-family: "Roboto", sans-serif;
+    padding: 32px 0;
+}
